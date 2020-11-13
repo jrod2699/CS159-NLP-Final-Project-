@@ -8,7 +8,7 @@ def preprocess(filename):
         strs = line.split("\t")
         eng_sent = []
         for_sent = strs[1]
-        
+         
     f.close()
 
 def main():
