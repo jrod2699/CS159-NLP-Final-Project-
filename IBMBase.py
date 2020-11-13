@@ -12,7 +12,7 @@ def preprocess(filename):
     f.close()
 
 def main():
-    print("is this working lmfao")
+    print("Testing how a main function works!")
 
 if __name__ == "__main__":
     main()
