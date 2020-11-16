@@ -1,13 +1,16 @@
 import nltk
-import re
-import string
+from IBMBase import preprocess
 from nltk.translate import AlignedSent, Alignment
+from nltk.translate.ibm1 import IBMModel1
 from nltk.tokenize.stanford import StanfordTokenizer
 from nltk.tokenize import TweetTokenizer
 
-def preprocess(filename):
+def run(filename, iterations):
+    ibm1 = IBMModel1(preprocess(filename), iterations)
+    get_alignments(ibm1, "data/test_sentences.txt")
+
+def get_alignments(ibm, filename):
     f = open(filename, "r")
-    corpus = []
 
     for line in f:
         strs = line.split("\t")
@@ -17,21 +20,33 @@ def preprocess(filename):
         eng_sent = strs[0]
         for_sent = strs[1]
 
+        print(eng_sent, "\t", for_sent)
+
         # Remove punctuation marks from both sentences
         # tokenizer = nltk.RegexpTokenizer(r"\w+")
-
         tknzr = TweetTokenizer()
         new_eng = tknzr.tokenize(eng_sent)
         new_for = tknzr.tokenize(for_sent)
         
-        aligned_sentence = AlignedSent(new_for, new_eng)
-        corpus.append(aligned_sentence)
+        # align_sent = AlignedSent(new_for, new_eng)
+
+        for fw in new_for:
+            ewtable = ibm.translation_table[fw]
+            max = 0
+            maxWord = ""
+            for ew in new_eng:
+                # print(new_eng)
+                # print('ew: ', ew)
+                val = ibm.translation_table[fw][ew]
+                if val > max:
+                    max = val
+                    maxWord = ew
+            print(fw, "\t", ew, "\t", max)
+
     f.close()
 
-    return corpus
-
 def main():
-    print("Testing how a main function works!")
+    run("data/10000french.txt", 5)
 
 if __name__ == "__main__":
     main()
