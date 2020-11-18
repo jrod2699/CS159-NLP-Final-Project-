@@ -1,0 +1,181 @@
+i think there are some gaps in what they have put forward . 
+creo que existen algunas lagunas en sus propuestas . 
+========================================================
+creo     think   0.6116314847772136
+que      i       0.15537494879415062
+existen          gaps    0.18232098142627357
+algunas          some    0.25388052386459475
+lagunas          gaps    0.4321780718955454
+en       in      0.3813592019103791
+sus      gaps    0.08862992844292217
+propuestas       forward         0.07931453968920885
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.6666666666666666
+Recall: 0.5384615384615384 - Mine: 0.46153846
+
+the european union is a system based on law . 
+la unión europea es un sistema basado en derecho . 
+========================================================
+la       the     0.1667713031882907
+unión    union   0.8989713606804659
+europea          european        0.5735475716938174
+es       is      0.5014348685399355
+un       a       0.39222691247463737
+sistema          system          0.9676362033280903
+basado   based   0.061250913845069234
+en       on      0.10083850089434414
+derecho          law     0.7419613523173841
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 1.0
+Recall: 1.0 - Mine: 1.0
+
+we have submitted an amendment to this effect . 
+hemos presentado una enmienda en ese sentido . 
+========================================================
+hemos    have    0.10342987198176726
+presentado       submitted       0.43375668228668024
+una      an      0.357609760312672
+enmienda         amendment       0.8839827396008602
+en       have    0.07139243789597709
+ese      effect          0.042952542885866356
+sentido          effect          0.04331923929022743
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.75
+Recall: 0.6666666666666666 - Mine: 0.6666666666666666
+
+no other member state is at such a disadvantage . 
+ningún otro estado miembro se encuentra en semejante situación de desventaja . 
+========================================================
+ningún   disadvantage    0.1090006527813564
+otro     disadvantage    0.08698491498388806
+estado   state   0.48417747941397227
+miembro          state   0.21495963334219914
+se       at      0.05523827110082935
+encuentra        disadvantage    0.1251324570864854
+en       at      0.18251919470300065
+semejante        disadvantage    0.12417384536071141
+situación        disadvantage    0.12512098345493047
+de       such    0.11456879982828594
+desventaja       disadvantage    0.12513246013997523
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.33333333
+Recall: 0.5 - Mine: 0.5
+
+in my opinion , this directive is unacceptable for this reason . 
+por ello , estimo que , en tales condiciones , esta directiva no es aceptable .
+========================================================
+por      reason          0.24384724647216274
+ello     reason          0.08907600871146681
+,        ,       0.32158276350600495
+estimo   unacceptable    0.014346105132652711
+que      is      0.051546652991193015
+,        ,       0.32158276350600495
+en       in      0.3813592019103791
+tales    unacceptable    0.019302619313118385
+condiciones      reason          0.020213288050114617
+,        ,       0.32158276350600495
+esta     this    0.24887337998090647
+directiva        directive       0.9283264898330108
+no       unacceptable    0.0437477368005893
+es       is      0.5014348685399355
+aceptable        unacceptable    0.07367765418708695
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.5625
+Recall: 0.7272727272727273 - Mine: 0.81818182
+
+parliament has proposed 4 years , the commission 7 and the council 13 . 
+y es así que la propuesta del parlamento es cuatro años , la de la comisión es siete , y la del consejo , trece años .
+========================================================
+y        and     0.6811896579699005
+es       4       0.014248275745266548
+así      4       0.02139444052424592
+que      ,       0.048457003998810186
+la       the     0.1667713031882907
+propuesta        proposed        0.19736271589809395
+del      the     0.07608295620584604
+parlamento       parliament      0.9448693822320107
+es       4       0.014248275745266548
+cuatro   4       0.02989122573069644
+años     years   0.9522877207305864
+,        ,       0.32158276350600495
+la       the     0.1667713031882907
+de       .       0.11095230264638861
+la       the     0.1667713031882907
+comisión         commission      0.9737452625498331
+es       4       0.014248275745266548
+siete    7       0.023998831003296184
+,        ,       0.32158276350600495
+y        and     0.6811896579699005
+la       the     0.1667713031882907
+del      the     0.07608295620584604
+consejo          council         0.9673222562644153
+,        ,       0.32158276350600495
+trece    13      0.03177903278910659
+años     years   0.9522877207305864
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.55555556
+Recall: 0.9230769230769231 - Mine: 1.0
+
+it is a miracle that they were saved . 
+es un milagro que se salvaran . 
+========================================================
+es       is      0.5014348685399355
+un       a       0.39222691247463737
+milagro          miracle         0.45112473882778864
+que      that    0.3943043322270745
+se       were    0.17783176117262112
+salvaran         miracle         0.45112473882778864
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.71428571
+Recall: 0.6666666666666666 - Mine: 0.55555556
+
+i think we can also thank the rapporteur once again . 
+creo que podemos dar las gracias una vez más a nuestro ponente .
+========================================================
+creo     think   0.6116314847772136
+que      i       0.15537494879415062
+podemos          can     0.15818849346892605
+dar      thank   0.13710072266095022
+las      the     0.057701858432472296
+gracias          thank   0.534535026555635
+una      once    0.3470664277467476
+vez      once    0.45302410616759314
+más      again   0.2679444813894414
+a        i       0.06512998071952385
+nuestro          think   0.014640491993369056
+ponente          rapporteur      0.9322525972629455
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.53846154
+Recall: 0.8181818181818182 - Mine: 0.77777778
+
+madam president , i had a major problem with this resolution . 
+señora presidenta , he tenido grandes problemas con esta resolución .
+========================================================
+señora   madam   0.4993540439609683
+presidenta       madam   0.5004358411038861
+,        ,       0.32158276350600495
+he       i       0.056204683214412736
+tenido   had     0.2787711131299696
+grandes          major   0.49144219249095733
+problemas        major   0.07629989487274365
+con      with    0.6957634654667494
+esta     this    0.24887337998090647
+resolución       resolution      0.9795685005099705
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.72727273
+Recall: 0.75 - Mine: 0.72727273
+
+that is a question of solidarity and progress . 
+es una cuestión de solidaridad y de progreso .
+========================================================
+es       is      0.5014348685399355
+una      a       0.31257632336571617
+cuestión         question        0.323507683535172
+de       of      0.22325904789560522
+solidaridad      solidarity      0.8921215121151267
+y        and     0.6811896579699005
+de       of      0.22325904789560522
+progreso         progress        0.2350027240330837
+.        .       0.46364119517318303
+Precision: 1.0 - Mine: 0.88888889
+Recall: 0.8888888888888888 - Mine: 1.0

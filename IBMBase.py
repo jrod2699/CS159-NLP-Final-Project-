@@ -4,9 +4,13 @@ import string
 from nltk.translate import AlignedSent, Alignment
 from nltk.tokenize import TweetTokenizer
 
+corpus = []
+
 def preprocess(filename):
+    global corpus
+
     f = open(filename, "r")
-    corpus = []
+    
 
     for line in f:
         # lowercase all words in the line -- this includes eng + for sentence
@@ -30,7 +34,11 @@ def preprocess(filename):
 
         # Create alignment pairs and add to corpus
         aligned_sentence = AlignedSent(for_words, eng_words)
+        print(aligned_sentence.alignment)
         corpus.append(aligned_sentence)
     f.close()
 
+    return corpus
+
+def get_corpus():
     return corpus
