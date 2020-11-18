@@ -1,45 +1,12 @@
 import nltk
 import re
 import string
+import random
 from nltk.translate.ibm1 import IBMModel1, AlignedSent, Alignment
 from nltk.tokenize import TweetTokenizer
 
-def preprocess(filename, iterations):
-    global corpus
-    global ibm1 
-
-    corpus = []
-    f = open(filename, "r")
-    
-    for line in f:
-        # lowercase all words in the line -- this includes eng + for sentence
-        line = line.lower()
-        strs = line.split("\t")
-
-        # OUR PLAN: split string by tab, index into english sentence (first index), foreign sentence (2nd index)
-        # then, replace add a "space" before any punctuation (using regex).
-        # finally, split by whitespace. we now have resultant eng and foreign arrays
-        eng_text = strs[0]
-        for_text = strs[1]
-
-        # Remove punctuation marks from both sentences
-        # eng_sent = "".join([char for char in eng_text if char not in string.punctuation])
-        # for_sent = "".join([char for char in for_text if char not in string.punctuation])
-
-        # Tokenize on white space
-        tokenizer = TweetTokenizer()
-        eng_words = tokenizer.tokenize(eng_text)
-        for_words = tokenizer.tokenize(for_text)
-
-        # Create alignment pairs and add to corpus
-        aligned_sentence = AlignedSent(for_words, eng_words)
-        corpus.append(aligned_sentence)
-    f.close()
-
-    ibm1 = IBMModel1(corpus, iterations)
-    # ibm1.__align_all(corpus)
-    # print(corpus[2].alignment)
-def get_alignments(filename):
+def get_random_sent():
+    corpus = 
     f = open(filename, "r")
 
     for line in f:
@@ -86,6 +53,8 @@ def get_alignments(filename):
         print(test_sentence[0].words)
         print(test_sentence[0].mots)
         print(corpus[0].alignment)
+        
+        gld_standard = Alignment.fromstring(gold_algnmnt)
         #reference_set = set(eng_words)
         print("Precision:", precision(reference_set, test_set))
         print("Recall:", recall(reference_set, test_set))
@@ -123,6 +92,8 @@ def example():
     print(test_sentence.mots)
     print(test_sentence.alignment)
 
+def get_alignment(eng_sent, for_sent):
+    
 
 def main():
     preprocess("data/10000french.txt", 5)

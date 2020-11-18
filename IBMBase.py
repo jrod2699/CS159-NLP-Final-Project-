@@ -34,7 +34,6 @@ def preprocess(filename):
 
         # Create alignment pairs and add to corpus
         aligned_sentence = AlignedSent(for_words, eng_words)
-        print(aligned_sentence.alignment)
         corpus.append(aligned_sentence)
     f.close()
 
