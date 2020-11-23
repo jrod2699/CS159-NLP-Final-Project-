@@ -1,2 +1,13 @@
-j'ai été licencié .	i was fired .	0-0 1-1 2-2 3-3	
-personne n'est chez lui .	no one is home .	0-1 1-0 2-3 3-3 4-4	
+vez-vous été invité à leur mariage ?	have you been invited to their wedding ?	0-0 1-2 2-3 3-4 4-5 5-6 6-7	0-0 0-1 1-2 2-3 3-4 4-5 5-6 6-7
+j'ai fait de mon mieux pour éviter ceci .	i did my best to prevent this .	0-0 1-1 2-4 3-2 4-3 5-4 6-5 7-6 8-7	0-0 1-1 3-2 4-3 5-4 6-5 7-6 8-7
+nous nous agenouillâmes pour prier .	we knelt down to pray .	0-0 1-0 2-1 3-3 4-4 5-5	0-0 1-0 2-1 2-2 3-3 4-4 5-5
+c'est mon tour ?	is it my turn ?	0-0 1-2 2-3 3-4	0-0 0-1 1-2 2-3 3-4
+quand es-tu arrivée ?	when did you arrive ?	0-0 1-3 2-3 3-4	0-0 1-1 1-2 2-3 3-4
+nous sommes ici depuis quelques heures.	we've been here for a couple hours .	0-0 1-0 2-2 3-1 4-5 5-6 6-7	0-0 1-1 2-2 3-3 3-4 4-5 5-6 6-7
+quelle impression cela fait-il d'être constamment suivi par des gens autour de vous ?	what does it feel like to always have people following you around ?	0-0 1-9 2-1 3-1 4-9 5-9 6-9 7-11 8-8 9-8 10-11 11-5 12-10 13-12	0-0 1-3 3-1 3-2 4-7 5-6 6-9 8-8 9-8 10-11 12-10 13-12
+de quoi aviez-vous peur ?	what were you afraid of ?	0-4 1-0 2-1 3-3 4-5	0-4 1-0 2-1 2-2 3-3 4-5
+en as-tu un ?	do you have one ?	0-3 1-2 2-3 3-4	1-1 1-2 2-3 3-4
+nous sommes détendus .	we're relaxed .	0-0 1-0 2-1 3-2	0-0 1-0 2-1 3-2
+les serveurs se sont téléscopés et ont fait tomber leurs plateaux .	the waiters bumped into each other and dropped their trays .	0-1 1-1 2-4 3-1 4-1 5-6 6-9 7-7 8-7 9-8 10-9 11-10	0-0 1-1 2-4 3-4 4-2 5-6 6-7 7-7 8-7 9-8 10-9 11-10
+j'adore les biscuits .	i love cookies .	0-1 1-2 2-2 3-3	0-0 0-1 1-2 2-2 3-3
+le passé est le passé .	the past is the past .	0-3 1-4 2-2 3-3 4-4 5-5	0-0 1-1 2-2 3-3 4-4 5-5

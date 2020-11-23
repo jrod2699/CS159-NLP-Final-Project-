@@ -1,0 +1,108 @@
+-----------------------------------------------
+la habitación en la que me encerraron los secuestradores no tenía ventanas .
+the room that the kidnappers locked me in had no windows .
+Precision:  0.46153846153846156
+Recall:  0.5454545454545454
+AER: 0.5
+F1:  0.5
+----------------------------------------------- 
+
+-----------------------------------------------
+tom llamó a mary desde el aeropuerto .
+tom called mary up from the airport .
+Precision:  0.875
+Recall:  0.875
+AER: 0.125
+F1:  0.875
+----------------------------------------------- 
+
+-----------------------------------------------
+el amor es complicado .
+love is complicated .
+Precision:  1.0
+Recall:  1.0
+AER: 0.0
+F1:  1.0
+----------------------------------------------- 
+
+-----------------------------------------------
+me encontré con mi profesor en el restaurante por casualidad ayer por la noche .
+i met my teacher by accident at the restaurant last night .
+Precision:  0.6666666666666666
+Recall:  0.8333333333333334
+AER: 0.2592592592592593
+F1:  0.7407407407407407
+----------------------------------------------- 
+
+-----------------------------------------------
+no se molesten en llamarme .
+don't bother to call me .
+Precision:  0.5
+Recall:  0.5
+AER: 0.5
+F1:  0.5
+----------------------------------------------- 
+
+-----------------------------------------------
+quiero hablar . 
+i want to talk .
+Precision:  1.0
+Recall:  0.6
+AER: 0.25
+F1:  0.7499999999999999
+----------------------------------------------- 
+
+-----------------------------------------------
+aquel libro no es mío .
+that book isn't mine .
+Precision:  1.0
+Recall:  1.0
+AER: 0.0
+F1:  1.0
+----------------------------------------------- 
+
+-----------------------------------------------
+le gusta cantar y bailar .
+he likes to sing and dance .
+Precision:  0.8333333333333334
+Recall:  0.7142857142857143
+AER: 0.23076923076923073
+F1:  0.7692307692307694
+----------------------------------------------- 
+
+-----------------------------------------------
+será un desastre .
+that'll be a disaster .
+Precision:  1.0
+Recall:  0.8
+AER: 0.11111111111111116
+F1:  0.8888888888888888
+----------------------------------------------- 
+
+-----------------------------------------------
+¿ crees tú en la vida eterna tras la muerte ?
+do you believe in eternal life after death ?
+Precision:  0.5454545454545454
+Recall:  0.6666666666666666
+AER: 0.4
+F1:  0.6
+----------------------------------------------- 
+
+-----------------------------------------------
+el abogado tiene muchos clientes .
+the lawyer has many clients . 
+Precision:  1.0
+Recall:  1.0
+AER: 0.0
+F1:  1.0
+----------------------------------------------- 
+
+-----------------------------------------------
+es muy corto . 
+it's very short . 
+Precision:  1.0
+Recall:  1.0
+AER: 0.0
+F1:  1.0
+----------------------------------------------- 
+
