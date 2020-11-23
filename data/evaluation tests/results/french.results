@@ -1,0 +1,120 @@
+-----------------------------------------------
+j'ai fait de mon mieux pour éviter ceci .
+i did my best to prevent this . 
+
+IBM1 Precision:  0.8888888888888888 	 IBM2 Precision:  0.8888888888888888
+IBM1 Recall:  1.0 	 IBM2 Recall:  1.0
+IBM1 AER: 0.05882352941176472 	 IBM2 AER:  0.05882352941176472
+IBM1 F1:  0.9411764705882353 	 IBM2 F1:  0.9411764705882353
+----------------------------------------------- 
+
+-----------------------------------------------
+nous nous agenouillâmes pour prier .
+we knelt down to pray . 
+
+IBM1 Precision:  1.0 	 IBM2 Precision:  1.0
+IBM1 Recall:  0.8571428571428571 	 IBM2 Recall:  0.8571428571428571
+IBM1 AER: 0.07692307692307687 	 IBM2 AER:  0.07692307692307687
+IBM1 F1:  0.9230769230769229 	 IBM2 F1:  0.9230769230769229
+----------------------------------------------- 
+
+-----------------------------------------------
+c'est mon tour ?
+is it my turn ? 
+
+IBM1 Precision:  1.0 	 IBM2 Precision:  1.0
+IBM1 Recall:  0.8 	 IBM2 Recall:  0.8
+IBM1 AER: 0.11111111111111116 	 IBM2 AER:  0.11111111111111116
+IBM1 F1:  0.8888888888888888 	 IBM2 F1:  0.8888888888888888
+----------------------------------------------- 
+
+-----------------------------------------------
+quand es-tu arrivée ?
+when did you arrive ? 
+
+IBM1 Precision:  0.75 	 IBM2 Precision:  1.0
+IBM1 Recall:  0.6 	 IBM2 Recall:  0.8
+IBM1 AER: 0.33333333333333337 	 IBM2 AER:  0.11111111111111116
+IBM1 F1:  0.6666666666666666 	 IBM2 F1:  0.8888888888888888
+----------------------------------------------- 
+
+-----------------------------------------------
+nous sommes ici depuis quelques heures.
+we've been here for a couple hours . 
+
+IBM1 Precision:  0.7142857142857143 	 IBM2 Precision:  0.7142857142857143
+IBM1 Recall:  0.625 	 IBM2 Recall:  0.625
+IBM1 AER: 0.33333333333333337 	 IBM2 AER:  0.33333333333333337
+IBM1 F1:  0.6666666666666666 	 IBM2 F1:  0.6666666666666666
+----------------------------------------------- 
+
+-----------------------------------------------
+quelle impression cela fait-il d'être constamment suivi par des gens autour de vous ?
+what does it feel like to always have people following you around ? 
+
+IBM1 Precision:  0.5714285714285714 	 IBM2 Precision:  0.5714285714285714
+IBM1 Recall:  0.6666666666666666 	 IBM2 Recall:  0.6666666666666666
+IBM1 AER: 0.3846153846153846 	 IBM2 AER:  0.3846153846153846
+IBM1 F1:  0.6153846153846154 	 IBM2 F1:  0.6153846153846154
+----------------------------------------------- 
+
+-----------------------------------------------
+de quoi aviez-vous peur ?
+what were you afraid of ? 
+
+IBM1 Precision:  1.0 	 IBM2 Precision:  0.8
+IBM1 Recall:  0.8333333333333334 	 IBM2 Recall:  0.6666666666666666
+IBM1 AER: 0.09090909090909094 	 IBM2 AER:  0.2727272727272727
+IBM1 F1:  0.9090909090909091 	 IBM2 F1:  0.7272727272727273
+----------------------------------------------- 
+
+-----------------------------------------------
+en as-tu un ?
+do you have one ? 
+
+IBM1 Precision:  0.75 	 IBM2 Precision:  0.75
+IBM1 Recall:  0.75 	 IBM2 Recall:  0.75
+IBM1 AER: 0.25 	 IBM2 AER:  0.25
+IBM1 F1:  0.75 	 IBM2 F1:  0.75
+----------------------------------------------- 
+
+-----------------------------------------------
+nous sommes détendus .
+we're relaxed . 
+
+IBM1 Precision:  1.0 	 IBM2 Precision:  1.0
+IBM1 Recall:  1.0 	 IBM2 Recall:  1.0
+IBM1 AER: 0.0 	 IBM2 AER:  0.0
+IBM1 F1:  1.0 	 IBM2 F1:  1.0
+----------------------------------------------- 
+
+-----------------------------------------------
+les serveurs se sont téléscopés et ont fait tomber leurs plateaux .
+the waiters bumped into each other and dropped their trays . 
+
+IBM1 Precision:  0.6666666666666666 	 IBM2 Precision:  0.75
+IBM1 Recall:  0.6666666666666666 	 IBM2 Recall:  0.75
+IBM1 AER: 0.33333333333333337 	 IBM2 AER:  0.25
+IBM1 F1:  0.6666666666666666 	 IBM2 F1:  0.75
+----------------------------------------------- 
+
+-----------------------------------------------
+j'adore les biscuits .
+i love cookies . 
+
+IBM1 Precision:  1.0 	 IBM2 Precision:  0.75
+IBM1 Recall:  0.8 	 IBM2 Recall:  0.6
+IBM1 AER: 0.11111111111111116 	 IBM2 AER:  0.33333333333333337
+IBM1 F1:  0.8888888888888888 	 IBM2 F1:  0.6666666666666666
+----------------------------------------------- 
+
+-----------------------------------------------
+le passé est le passé .
+the past is the past . 
+
+IBM1 Precision:  0.6666666666666666 	 IBM2 Precision:  1.0
+IBM1 Recall:  0.6666666666666666 	 IBM2 Recall:  1.0
+IBM1 AER: 0.33333333333333337 	 IBM2 AER:  0.0
+IBM1 F1:  0.6666666666666666 	 IBM2 F1:  1.0
+----------------------------------------------- 
+
