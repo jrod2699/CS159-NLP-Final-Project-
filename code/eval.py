@@ -1,10 +1,7 @@
 import nltk
 import string
-import random
-from IBMBase import compile_corpus
 from nltk.translate import Alignment, alignment_error_rate
 from nltk.metrics import precision, recall, f_measure
-from nltk.tokenize import TweetTokenizer
 
 def eval(test_alignments):
     f = open(test_alignments, "r")

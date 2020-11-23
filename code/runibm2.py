@@ -1,7 +1,7 @@
 import nltk
 import string
 import random
-from IBMBase import compile_corpus
+from preprocess import compile_corpus
 from nltk.translate import IBMModel2, AlignedSent, Alignment
 from nltk.metrics import precision, recall
 from nltk.tokenize import TweetTokenizer
