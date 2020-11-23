@@ -14,10 +14,11 @@ def eval(test_alignments):
 
         print("-" * 47)
         print(strs[0])
-        print(strs[1])
+        print(strs[1], "\n")
 
-        sys_aligns = Alignment.fromstring(strs[2])
-        hand_aligns = Alignment.fromstring(strs[3])
+        ibm1_aligns = Alignment.fromstring(strs[2])
+        ibm2_aligns = Alignment.fromstring(strs[3])
+        hand_aligns = Alignment.fromstring(strs[4])
 
         '''
         Evaluate the sentence pair's precisiona and recall by utilizing the
@@ -29,17 +30,16 @@ def eval(test_alignments):
             comparison with the hand alignments 
         '''
         
-        print("Precision: ", precision(hand_aligns, sys_aligns))
-        print("Recall: ", recall(hand_aligns, sys_aligns))
-        print("AER:", alignment_error_rate(hand_aligns, sys_aligns))
-        print("F1: ", f_measure(hand_aligns, sys_aligns))
-    
+        print("IBM1 Precision: ", precision(hand_aligns, ibm1_aligns),"\t","IBM2 Precision: ", precision(hand_aligns, ibm2_aligns))
+        print("IBM1 Recall: ", recall(hand_aligns, ibm1_aligns),"\t","IBM2 Recall: ", recall(hand_aligns, ibm2_aligns))
+        print("IBM1 AER:", alignment_error_rate(hand_aligns, ibm1_aligns), "\t","IBM2 AER: ", alignment_error_rate(hand_aligns, ibm2_aligns))
+        print("IBM1 F1: ", f_measure(hand_aligns, ibm1_aligns), "\t","IBM2 F1: ", f_measure(hand_aligns, ibm2_aligns))
         print("-" * 47, "\n")
     f.close()
 
 
 def main():
-    eval("data/evaluation tests/random.spanish")
+    eval("data/evaluation tests/test sentences/test.spanish")
 
 
 if __name__ == "__main__":

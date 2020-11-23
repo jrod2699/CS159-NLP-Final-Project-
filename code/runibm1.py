@@ -33,7 +33,7 @@ def get_rand_sent():
         try:
             # only print out "valid" sentence pairs
                 # valid = sentence pairs with system-created alignments
-            print(" ".join(corpus[index].words), "\t", " ".join(corpus[index].mots), "\t", corpus[index].alignment)
+            print(" ".join(corpus[index].mots), "\t", " ".join(corpus[index].words), "\t", corpus[index].alignment)
             i += 1
         except:
             pass
