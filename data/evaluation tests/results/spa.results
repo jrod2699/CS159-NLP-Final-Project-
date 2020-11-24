@@ -1,4 +1,5 @@
 -----------------------------------------------
+Length of foreign sentence: 13
 la habitación en la que me encerraron los secuestradores no tenía ventanas .
 the room that the kidnappers locked me in had no windows . 
 
@@ -9,6 +10,7 @@ IBM1 F1:  0.5 	 IBM2 F1:  0.5833333333333333
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 8
 tom llamó a mary desde el aeropuerto .
 tom called mary up from the airport . 
 
@@ -19,6 +21,7 @@ IBM1 F1:  0.875 	 IBM2 F1:  0.875
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 5
 el amor es complicado .
 love is complicated . 
 
@@ -29,6 +32,7 @@ IBM1 F1:  1.0 	 IBM2 F1:  1.0
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 15
 me encontré con mi profesor en el restaurante por casualidad ayer por la noche .
 i met my teacher by accident at the restaurant last night . 
 
@@ -39,6 +43,7 @@ IBM1 F1:  0.7407407407407407 	 IBM2 F1:  0.7407407407407407
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 6
 no se molesten en llamarme .
 don't bother to call me . 
 
@@ -49,6 +54,7 @@ IBM1 F1:  0.5 	 IBM2 F1:  0.6666666666666666
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 3
 quiero hablar . 
 i want to talk . 
 
@@ -59,6 +65,7 @@ IBM1 F1:  0.7499999999999999 	 IBM2 F1:  0.7499999999999999
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 6
 aquel libro no es mío .
 that book isn't mine . 
 
@@ -69,6 +76,7 @@ IBM1 F1:  1.0 	 IBM2 F1:  1.0
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 6
 le gusta cantar y bailar .
 he likes to sing and dance . 
 
@@ -79,6 +87,7 @@ IBM1 F1:  0.7692307692307694 	 IBM2 F1:  0.7692307692307694
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 4
 será un desastre .
 that'll be a disaster . 
 
@@ -89,6 +98,7 @@ IBM1 F1:  0.8888888888888888 	 IBM2 F1:  0.8888888888888888
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 11
 ¿ crees tú en la vida eterna tras la muerte ?
 do you believe in eternal life after death ? 
 
@@ -99,6 +109,7 @@ IBM1 F1:  0.6 	 IBM2 F1:  0.8
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 6
 el abogado tiene muchos clientes .
 the lawyer has many clients .  
 
@@ -109,6 +120,7 @@ IBM1 F1:  1.0 	 IBM2 F1:  1.0
 ----------------------------------------------- 
 
 -----------------------------------------------
+Length of foreign sentence: 4
 es muy corto . 
 it's very short .  
 
@@ -118,3 +130,8 @@ IBM1 AER: 0.0 	 IBM2 AER:  0.0
 IBM1 F1:  1.0 	 IBM2 F1:  1.0
 ----------------------------------------------- 
 
+------------------------------ AVERAGE STATS ------------------------------
+Average IBM1 Precision:  0.8234994172494172 		 Average IBM2 Precision:  0.8589500777000776
+Average IBM1 Recall:  0.7945616883116884 		 Average IBM2 Recall:  0.8345448532948533
+Average IBM1 AER: 0.19801163342830008 		 Average IBM2 AER:  0.16051163342830008
+Average IBM1 F1:  0.8019883665716998 		 Average IBM2 F1:  0.8394883665716999
