@@ -31,20 +31,3 @@ def compile_corpus(english_file, for_file, iterations):
     eng.close()
     foreign.close
 
-def get_rand_sent():
-    ''' 
-    Redirect the standard output of the program -- i.e. the random sentences --
-    and transfer it over to the appropriate file. From there we will take a 
-    look at the sentence pair and include the hand alignment (gold standard)
-    to proceed with evaluating the IBM model.
-    '''
-    i = 0
-    while i < 10:
-        index = random.randint(0, len(corpus))
-        try:
-            # only print out "valid" sentence pairs
-                # valid = sentence pairs with system-created alignments
-            print(" ".join(corpus[index].words), "\t", " ".join(corpus[index].mots), "\t", corpus[index].alignment)
-            i += 1
-        except:
-            pass

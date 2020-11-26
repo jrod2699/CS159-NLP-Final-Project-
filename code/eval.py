@@ -17,6 +17,7 @@ def eval(test_alignments):
         strs = line.split("\t")
 
         print("-" * 47)
+        print("Length of foreign sentence: ", len(strs[0].split()))
         print(strs[0])
         print(strs[1], "\n")
 
@@ -40,7 +41,7 @@ def eval(test_alignments):
         ibm2_precision, ibm2_recall, ibm2_aer, ibm2_f1 = precision(hand_aligns, ibm2_aligns), recall(hand_aligns, ibm2_aligns), \
                                                          alignment_error_rate(hand_aligns, ibm2_aligns), f_measure(hand_aligns, ibm2_aligns)
 
-        # Adds it to our aggregate calculations
+        # Add it to our aggregate calculations
         ibm1_precision_sum += ibm1_precision
         ibm1_recall_sum += ibm1_recall
         ibm1_aer_sum += ibm1_aer
@@ -69,8 +70,8 @@ def eval(test_alignments):
 
 
 def main():
-    eval("data/evaluation tests/test sentences/test.spanish")
-
+    # change the file based on the langauge being tested
+    eval("data/evaluation tests/test sentences/test.viet")
 
 if __name__ == "__main__":
     main()

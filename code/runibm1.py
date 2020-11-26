@@ -1,18 +1,14 @@
 import nltk
-import string
 import random
 from preprocess import compile_corpus
 from nltk.translate import IBMModel1, AlignedSent, Alignment
-from nltk.metrics import precision, recall
-from nltk.tokenize import TweetTokenizer
 
 def run(filename, iterations):
     # global variables utilized in the assessment of the IBM Model
     global ibm1
     global corpus
 
-    # construct and modify corpus by adding the system alignments
-    # to every sentence pair
+    # construct and modify corpus by adding the system alignments to every sentence pair
     corpus = compile_corpus(filename)
     ibm1 = IBMModel1(corpus, iterations)
 
@@ -38,10 +34,9 @@ def get_rand_sent():
         except:
             pass
 
-
 def main():
+    # change the file based on the langauge being tested
     run("data/languages/vie-eng.txt", 5)
-
 
 if __name__ == "__main__":
     main()
